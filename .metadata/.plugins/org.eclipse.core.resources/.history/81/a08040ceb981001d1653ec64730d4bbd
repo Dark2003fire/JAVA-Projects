@@ -1,0 +1,24 @@
+import javax.swing.*;
+import java.awt.*;
+public class Splash extends JFrame{
+	
+	
+	Splash(){
+		
+		ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("images/university2.jpg"));// This method id used to add the image or icon in the Application
+		JLabel image = new JLabel(i1); //To add image directly on the Frame we have use this method;
+		add(image);
+		setSize(1000, 800);
+		setVisible(true);
+		setLocation(400 , 100);
+	}
+
+	public static void main(String[] args) {
+		
+		new Splash();
+		
+		
+
+	}
+
+}

@@ -1,0 +1,71 @@
+import java.util.*;
+public class Arrays {
+
+	public static void main(String[] args) {
+		
+		SingleDimensionalArrayintermsofInt();
+		IntermofCharacter();
+		IntermsofFloat();	
+		IntermsofDouble();
+		
+
+	}
+	class string{
+		
+	
+		
+	}
+	
+	static void SingleDimensionalArrayintermsofInt(){
+		
+		int arr[]= {10,20,30,40,50,60,70,80,90,100};
+		System.out.println("Number of the elements in the array are :->");
+		for(int i = 0;i<arr.length;i++) {
+			
+			System.out.println(arr[i]+"\t");
+			
+		}
+		
+		
+	}
+	
+	static void IntermofCharacter() {
+		
+		char names[] = {'H' ,'I' ,'T' ,'E' ,'S' ,'H'};
+		System.out.println("The name of the character  is ");
+		for(int i = 0;i<names.length;i++) {
+			
+			System.out.println(names[i]);
+		}
+	}
+	
+	static void IntermsofFloat() {
+		int i =0;
+		float values[]= {2.3f,1.36f,2.365f,2.365f,3.14f};
+		System.out.println("The floating value are :->");
+		while(i<values.length) {
+			
+			System.out.println(values[i]);
+			i++;
+			
+			
+			
+		}
+		
+		
+	}
+	
+	static void IntermsofDouble()
+	{
+		int i =0;
+		double val[]= {3.14,45.36,235.36,32.36,45.3652,231.36569689654689,};
+		System.out.println("The double values are :-->");
+		do {
+			
+			System.out.println(val[i]);
+			i++;
+			
+		}while(i<val.length);
+		
+	}
+}
